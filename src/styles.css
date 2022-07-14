@@ -4,8 +4,37 @@
 
 body {
   margin: 0;
-  background-color: #2B283A;
+  background-color: #0B2434;
   height: 100vh;
-  width: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+main {
+  height: 320px;
+  width: 320px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-container { 
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 18px;
+}
+
+.value {
+  height: 35px;
+  width: 35px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 3.81277px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
